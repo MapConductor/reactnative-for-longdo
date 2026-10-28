@@ -53,4 +53,5 @@ interface LongdoMapViewProps extends MapViewBaseProps<LongdoViewStateInterface> 
  */
 declare function LongdoMapView(props: LongdoMapViewProps): React.JSX.Element;
 
-export { type LongdoMap, LongdoMapView, LongdoMapViewHolder, type LongdoMapViewProps, type LongdoMapViewRef, LongdoViewController, type LongdoViewControllerInterface, type NativeLongdoViewEvent, type NativeLongdoViewProps };
+export { LongdoMapView, LongdoMapViewHolder, LongdoViewController };
+export type { LongdoMap, LongdoMapViewProps, LongdoMapViewRef, LongdoViewControllerInterface, NativeLongdoViewEvent, NativeLongdoViewProps };
