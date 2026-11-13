@@ -13,10 +13,10 @@ Pod::Spec.new do |s|
   s.platform = :ios, "16.1"
   s.source_files = "ios/*.{h,m,mm,swift}"
   s.dependency "React-Core"
-  s.dependency "MapConductorCore", "~> 1.3.0"
+  s.dependency "MapConductorCore", "~> 1.4"
   s.dependency "MapConductorReactNativeCore"
   s.dependency "MapConductorReactMarkerClustering"
   # MapConductorForLongdo は source pod。ベンダの LongdoMapFramework（dynamic・trunk 公開）は
   # そちらの podspec が引くので、ここで重ねて宣言しない。
-  s.dependency "MapConductorForLongdo", "~> 1.3.0"
+  s.dependency "MapConductorForLongdo", "~> 1.4"
 end
